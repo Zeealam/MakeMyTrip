@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Search]">
+  <test thread-count="5" name="BookFlight Test cases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Tests.BookFlightTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="bookFlight"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.Tests.BookFlightTest -->
+    </classes>
+  </test> <!-- BookFlight Test cases(failed) -->
+</suite> <!-- Failed suite [Search] -->
